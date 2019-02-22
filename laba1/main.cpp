@@ -8,18 +8,18 @@ int main() {
     int choice;
     while (end) {
         if (changeNumber) {
-            cout << "Введите действительную и мнимую части первого комплексного числа: ";
+            cout << "Enter the real and imaginary axises of first complex number: ";
             cin >> x >> y;
             c1.init(x, y);
-            cout << "Введите действительную и мнимую части второго комплексного числа: ";
+            cout << "Enter the real and imaginary axises of second complex number: ";
             cin >> x >> y;
             c2.init(x, y);
         }
         do {
-            cout << endl << "Доступные операции:\n1. Сложение\n2. Вычитание\n3. Умножение\n4. Деление\n\nВыберите операцию: ";
+            cout << endl << "Available operations:\n1. Summing\n2. Subtracting\n3. Multiplying\n4. Division\n\nChoose operation: ";
             cin >> choice;
             if (choice > 4 | choice < 1)
-                cout << endl << "Неверное значение! Повторите выбор:\n";
+                cout << endl << "Wrong number! Try again:\n";
         } while (choice > 4 | choice < 1);
         switch (choice) {
             case 1:
@@ -37,10 +37,10 @@ int main() {
         }
         c3.output();
         do {
-            cout << endl << "Доступные действия:\n1. Выбрать другую операцию\n2. Выбрать другие числа\n3. Выйти\n\nВыберите действие:";
+            cout << endl << "Available actions:\n1. Choose another operation\n2. Choose another numbers\n3. Exit\n\nChoose action:";
             cin >> choice;
             if (choice > 3 | choice < 1)
-                cout << endl << "Неверное значение! Повторите выбор:\n";
+                cout << endl << "Wrong number! Try again:\n";
         } while (choice > 3 | choice < 1);
         switch (choice) {
             case 1:

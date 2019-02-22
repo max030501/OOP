@@ -26,5 +26,5 @@ void Complex::divide(Complex c1, Complex c2) {
 }
 
 void Complex::output() {
-    cout << endl << "Полученное комлпексное число: " << "(" << re << ", " << im << ")" << endl;
+    cout << endl << "Resulted complex number is " << "(" << re << ", " << im << ")" << endl;
 }
