@@ -16,7 +16,7 @@ int main() {
             c2.init(x, y);
         }
         do {
-            cout << endl << "Available operations:\n1. Summing\n2. Subtracting\n3. Multiplying\n4. Division\n\nChoose operation: ";
+            cout << endl << "Available operations:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n\nChoose operation: ";
             cin >> choice;
             if (choice > 4 | choice < 1)
                 cout << endl << "Wrong number! Try again:\n";
