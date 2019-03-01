@@ -24,20 +24,26 @@ int main() {
         switch (choice) {
             case 1:
                 c3.add(c1, c2);
+				c3.output();
                 break;
             case 2:
                 c3.subtract(c1, c2);
+				c3.output();
                 break;
             case 3:
                 c3.multiply(c1, c2);
+				c3.output();
                 break;
             case 4:
-                c3.divide(c1, c2);
+				if (c2.check())
+				{
+					c3.divide(c1, c2);
+					c3.output();
+				}
                 break;
         }
-        c3.output();
         do {
-            cout << endl << "Available actions:\n1. Choose another operation\n2. Choose another numbers\n3. Exit\n\nChoose action:";
+            cout << endl << "Available actions:\n1. Choose another operation\n2. Choose another numbers\n3. Exit\n\nChoose action: ";
             cin >> choice;
             if (choice > 3 | choice < 1)
                 cout << endl << "Wrong number! Try again:\n";

@@ -20,6 +20,8 @@ public:
 
     void divide(Complex c1, Complex c2);
 
+	int check();
+
     void output();
 };
 
