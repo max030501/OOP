@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\пользователь\source\repos\max030501\oop\laba6\laba6\main.cpp(38): warning C4305: аргумент: усечение из "double" в "float"
+c:\users\пользователь\source\repos\max030501\oop\laba6\laba6\main.cpp(43): warning C4305: аргумент: усечение из "double" в "float"
+  laba6.vcxproj -> C:\Users\Пользователь\source\repos\max030501\OOP\laba6\Debug\laba6.exe
