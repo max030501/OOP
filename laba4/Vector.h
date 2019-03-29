@@ -21,6 +21,11 @@ public:
 		this->y = y;
 		abs = sqrt(x*x + y * y);
 	}
+	Vector(const Vector &vector) :
+		x(vector.x), y(vector.y), abs(vector.abs)
+	{
+		cout << "Copy constructor worked here" << endl;
+	}
 	void setData() {
 		cout << "Enter the x coordinate of vector: ";
 		cin >> x;

@@ -24,6 +24,11 @@ public:
 		this->size_w = size_w;
 		this->price = price;
 	}
+	Tiles(const Tiles &tiles) :
+		brand(tiles.brand), size_h(tiles.size_h), size_w(tiles.size_w), price(tiles.price)
+	{
+		cout << "Copy constructor worked here" << endl;
+	}
 	void setData() {
 		cout << "Enter the brand of tiles: ";
 		cin >> brand;

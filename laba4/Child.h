@@ -21,6 +21,11 @@ public:
 		this->family = family;
 		this->age = age;
 	}
+	Child(const Child &child) :
+		name(child.name), family(child.family), age(child.age)
+	{
+		cout << "Copy constructor worked here" << endl;
+	}
 	void setData() {
 		cout << "Enter the name of the child: ";
 		cin >> name;

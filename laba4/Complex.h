@@ -22,6 +22,11 @@ public:
 		abs = sqrt(re*re + im * im);
 		arg = atan(im / re);
 	}
+	Complex(const Complex &complex) :
+		re(complex.re), im(complex.im), abs(complex.abs), arg(complex.arg)
+	{
+		cout << "Copy constructor worked here" << endl;
+	}
 	void setData() {
 		cout << "Enter the real axis of number: ";
 		cin >> re;
