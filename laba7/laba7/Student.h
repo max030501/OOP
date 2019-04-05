@@ -18,7 +18,7 @@ public:
 		else
 			on_lesson = 1;
 	}
-	void print() {
+	void print() override {
 		cout << "I am student. My name is " << surname << " " << name << " " << midname << endl;
 		cout << "I'm " << age << " year's old" << endl;
 		if (on_lesson)

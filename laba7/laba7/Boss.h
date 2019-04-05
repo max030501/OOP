@@ -15,7 +15,7 @@ public:
 	void set(int number) {
 		number_of_workers = number;
 	}
-	void print() {
+	void print() override {
 		cout << "I am boss. My name is " << surname << " " << name << " " << midname << endl;
 		cout << "I'm " << age << " year's old" << endl;
 		cout << "Number of workers in company - " << number_of_workers << endl;
