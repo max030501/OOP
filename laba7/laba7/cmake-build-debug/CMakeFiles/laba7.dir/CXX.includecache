@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Univer/OOP/laba7/laba7/Boss.h
+Human.h
+F:/Univer/OOP/laba7/laba7/Human.h
+
+F:/Univer/OOP/laba7/laba7/Human.h
+iostream
+-
+string
+-
+
+F:/Univer/OOP/laba7/laba7/Student.h
+Human.h
+F:/Univer/OOP/laba7/laba7/Human.h
+
+F:/Univer/OOP/laba7/laba7/main.cpp
+iostream
+-
+string
+-
+Human.h
+F:/Univer/OOP/laba7/laba7/Human.h
+Student.h
+F:/Univer/OOP/laba7/laba7/Student.h
+Boss.h
+F:/Univer/OOP/laba7/laba7/Boss.h
+

@@ -20,7 +20,7 @@ int main() {
 	else
 		func = subtract;
 	result = func(a, b);
-	cout << "Resulter number is " << result;
+	cout << "Resulter number is " << result << endl;
 	system("pause");
 	return 0;
 }

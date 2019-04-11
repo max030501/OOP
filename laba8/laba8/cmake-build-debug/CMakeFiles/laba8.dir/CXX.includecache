@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Univer/OOP/laba8/laba8/Complex.h
+iostream
+-
+string
+-
+cmath
+-
+
+F:/Univer/OOP/laba8/laba8/main.cpp
+Complex.h
+F:/Univer/OOP/laba8/laba8/Complex.h
+vector
+-
+queue
+-
+list
+-
+iterator
+-
+

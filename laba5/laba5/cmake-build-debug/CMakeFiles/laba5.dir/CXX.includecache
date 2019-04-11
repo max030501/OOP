@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Univer/OOP/laba5/laba5/Complex.h
+iostream
+-
+string
+-
+math.h
+-
+
+F:/Univer/OOP/laba5/laba5/Vector.h
+iostream
+-
+string
+-
+math.h
+-
+
+F:/Univer/OOP/laba5/laba5/main.cpp
+iostream
+-
+Complex.h
+F:/Univer/OOP/laba5/laba5/Complex.h
+Vector.h
+F:/Univer/OOP/laba5/laba5/Vector.h
+

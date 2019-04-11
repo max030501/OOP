@@ -11,7 +11,7 @@ protected:
 	float weight;
 public:
 	void voice() {
-		cout << "Bark";
+		cout << "Woof" << endl;
 	}
 	Dog() : Animal() {
 		weight = 0;

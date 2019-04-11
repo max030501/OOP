@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string>
+#include <cmath>
 using namespace std;
 
 class Comp {
@@ -14,7 +15,7 @@ public:
 	}
 	friend ostream& operator<<(ostream& out, Comp &c) {
 		out << "The module of complex number is " << c.abs << endl;
-		out << "The argumebt of complex number is " << c.arg << endl;
+		out << "The argument of complex number is " << c.arg << endl;
 		return out;
 	}
 	friend istream& operator>>(istream& in, Comp &c) {

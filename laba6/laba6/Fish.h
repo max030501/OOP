@@ -30,7 +30,7 @@ public:
 		in >> f.speed;
 		cout << "Name is ";
 		in >> f.name;
-		cout << "Depth is";
+		cout << "Depth is ";
 		in >> f.depth;
 		return in;
 	}

@@ -1,6 +1,6 @@
 #pragma once
 
-#include"Human.h";
+#include"Human.h"
 
 class Student : public Human {
 private:

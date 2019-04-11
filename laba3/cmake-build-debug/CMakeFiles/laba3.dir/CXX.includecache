@@ -6,11 +6,45 @@
 
 #IncludeRegexTransform: 
 
-F:/Univer/OOP/laba3/main.cpp
+F:/Univer/OOP/laba3/Child.h
 iostream
 -
 string
 -
 math.h
 -
+
+F:/Univer/OOP/laba3/Complex.h
+iostream
+-
+string
+-
+math.h
+-
+
+F:/Univer/OOP/laba3/Tiles.h
+iostream
+-
+string
+-
+math.h
+-
+
+F:/Univer/OOP/laba3/Vector.h
+iostream
+-
+string
+-
+math.h
+-
+
+F:/Univer/OOP/laba3/main.cpp
+Child.h
+F:/Univer/OOP/laba3/Child.h
+Tiles.h
+F:/Univer/OOP/laba3/Tiles.h
+Complex.h
+F:/Univer/OOP/laba3/Complex.h
+Vector.h
+F:/Univer/OOP/laba3/Vector.h
 

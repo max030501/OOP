@@ -1,0 +1,3 @@
+F:/Univer/OOP/laba2/Project2/Project4/cmake-build-debug/CMakeFiles/Project4.dir
+F:/Univer/OOP/laba2/Project2/Project4/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Univer/OOP/laba2/Project2/Project4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

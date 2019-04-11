@@ -1,5 +1,3 @@
-
-
 #include<iostream>
 #include"Student.h"
 #include"Starosta.h"

@@ -10,7 +10,7 @@ protected:
 	float weight;
 public:
 	void voice() {
-		cout << "Meow";
+		cout << "Meow" << endl;
 	}
 	Cat() : Animal() {
 		weight = 0;
